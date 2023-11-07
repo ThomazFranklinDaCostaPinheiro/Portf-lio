@@ -12,8 +12,18 @@
     
     <style>
 
-        body {
+        main {
             font-family: 'Xanh Mono', monospace;
+        }
+
+        section.sessao1 img {
+            float: left;
+            margin-right: 0.5em;
+
+        }
+
+        section.sessao2 {
+            clear: both;
         }
 
     </style>
@@ -21,31 +31,28 @@
 </head>
 <body>
 
-<header style="margin-bottom: 10px;">
+    <main>
+<header>
     <h1>Site de portfólio pessoal</h1>
     <nav>
         <ul>
             <li><a href="#section1">Biografia</a></li>
-            <li><a href="#section2">Seção 2</a></li>
+            <li><a href="#section2">Projetos</a></li>
             <li><a href="#section3">Contactos</a></li>
         </ul>
     </nav>
 </header>
 
-    <div style="float: left; width: 50%;">
     <h1>Apresentação</h1>
     <p>Neste site vai ter acesso ao portfólio de todos os meus projetos, onde o próprio site foi programado por mim.
         Pra além disso, também vai ter a possibilidade de saber um pouco mais sobre mim e sobre a minha vida na programação.
     </p>
-        </div>
-        <div style="float: left; width: 50%;">
-    <img src="/Imagens/Minha foto.png" style="width: 250px; height: 260px; border: 1px solid #000; float: right; margin-right: 300px;">
-        </div>
-        <div style="clear: both;"></div>
+        
+    
 
 
-<div style="float: left; width: 50%;">
-    <section id="section1">
+    <section id="section1" class="sessao1">
+        <img src="/Imagens/Minha foto.png" style="width: 250px; height: 260px; border: 1px solid #000;">
     <h2>Sobre mim</h2>  
     <h3>Biografia</h3>
         <p>"Olá! Sou o Thomaz Franklin, um entusiasta da programação apaixonado por criar soluções inovadoras. Com uma formação em HTML,CSS, (...). Tenho explorado o mundo da programação mais a fundo desde 2023, porém cursei 1 ano de engenharia informática no ano de 2020/2021. Minha jornada começou com a Universidade e a idéia de trabalhar com um tio que já está na área.
@@ -76,21 +83,17 @@
         <p>...</p>
 
     </section>
-</div>
 
-<div style="float: left; width: 50%;">
-<section id="section2">
+<section id="section2" class="sessao2">
     <h2>Lista de projetos</h2>
     <p>Esses são alguns dos projetos realizados nas diversas linguagens que domino:</p>
-        <ul style="width: 150px; list-style: none; margin-left: 260px;">
+        <ul style="width: 150px; list-style: none; margin-left: 625px;">
             <li><a href="projeto1.html" target="_blank">Meu primeiro site.(HTML/CSS)</a></li>
             <li><a href="projeto2.html" target="_blank">Projeto 2</a></li>
             <li><a href="projeto3.html" target="_blank">Projeto 3</a></li>
         </ul>
 </section>
-</div>
-<div style="clear: both;"></div>
-<div>
+
     <section id="section3">
     <h2>Contactos</h2>
     <p>Esteja a vontade para me contactar através dos seguintes canais:</p>
@@ -99,9 +102,9 @@
             <li>Telemóvel: 915 610 404</li>
         </ul>
 </section>
-</div>
 <footer>
-    <small>&copy; 2023 Thomaz Franklin, Alll rights reserved.</small>
+    <small>&copy; 2023 Thomaz Franklin, All rights reserved.</small>
 </footer>
+    </main>
 </body>
 </html>
