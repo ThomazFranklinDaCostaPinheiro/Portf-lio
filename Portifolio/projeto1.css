@@ -1,15 +1,22 @@
+main {
+
+    background-image: url(/Imagens/background\ site.jpg);
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color:aliceblue;
-    background-image: url(/Imagens/background\ site.jpg);
-    background-repeat: no-repeat;
 }
 
 header {
     color: #fff;
     padding: 1px;
     text-align: center;
-    background-color: #333;
+    background-color: rgb(11, 37, 85);
 }
 
 nav ul {
@@ -34,6 +41,7 @@ li a:hover {
 }
 
 footer {
+
     text-align: center;
 }
 
@@ -43,12 +51,13 @@ footer {
 
 #section2 {
     text-align: center;
-    margin-top: 100px;
 }
 
 #section3 {
+
     text-align: center;
-    background-color: #333;
+    background-color: rgb(11, 37, 85);
     padding: 10px;
+    clear: both;
 }
 
